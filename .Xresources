@@ -1,0 +1,76 @@
+URxvt*scrollBar: false
+URxvt*internalBorder: 10
+URxvt*letterSpace: -6
+URxvt*font: xft:DejaVu Mono:size=11
+URxvt*fontBold: xft:DejaVu Mono:bold:size=11
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+
+
+
+Xft.dpi:       96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+! special
+*.foreground:   #9ea7a6
+*.background:   #12171a
+*.cursorColor:  #9ea7a6
+
+! black
+*.color0:       #12171a
+*.color8:       #3f4944
+
+! red
+*.color1:       #2a5491
+*.color9:       #2a5491
+
+! green
+*.color2:       #237986
+*.color10:      #237986
+
+! yellow
+*.color3:       #a03b1e
+*.color11:      #a03b1e
+
+! blue
+*.color4:       #484d79
+*.color12:      #484d79
+
+! magenta
+*.color5:       #c59820
+*.color13:      #c59820
+
+! cyan
+*.color6:       #b02f30
+*.color14:      #b02f30
+
+! white
+*.color7:       #9ea7a6
+*.color15:      #b5d8f6
+
+
+
+rofi.fullscreen: true
+rofi.color-enabled: true
+rofi.color-window: argb:e8222D32,argb:00292f37,#EBCB8B
+rofi.color-normal: argb:02000000,#D8DEE9,argb:02000000,argb:02000000,#EBCB8B
+rofi.color-active: argb:02000000,#D8DEE9,argb:02000000,argb:02000000,#D8DEE9
+rofi.color-urgent: argb:02000000,#D8DEE9,argb:02000000,argb:02000000,#D8DEE9
+
+rofi.font: System San Francisco Display 14
+rofi.eh: 1
+rofi.line-margin: 20
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.lines: 3
+rofi.width: 100
+rofi.padding: 200
+rofi.bw: 0
+rofi.show-icons: true
