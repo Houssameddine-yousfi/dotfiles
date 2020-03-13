@@ -1,8 +1,8 @@
 URxvt*scrollBar: false
 URxvt*internalBorder: 10
-URxvt*letterSpace: -6
-URxvt*font: xft:DejaVu Mono:size=11
-URxvt*fontBold: xft:DejaVu Mono:bold:size=11
+URxvt*letterSpace: 0
+URxvt*font: xft:Droid Sans Mono:style=Regular:size=11
+URxvt*fontBold: xft:Droid Sans Mono:style=Bold:size=11
 
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.iso14755: False
@@ -19,40 +19,40 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 ! special
-*.foreground:   #9ea7a6
+*.foreground:   #bec7c6
 *.background:   #12171a
-*.cursorColor:  #9ea7a6
+*.cursorColor:  #bec7c6
 
 ! black
 *.color0:       #12171a
-*.color8:       #3f4944
+*.color8:       #5f6964
 
 ! red
-*.color1:       #2a5491
-*.color9:       #2a5491
+*.color1:       #4a74b1
+*.color9:       #4a74b1
 
 ! green
-*.color2:       #237986
-*.color10:      #237986
+*.color2:       #4399a6
+*.color10:      #4399a6
 
 ! yellow
-*.color3:       #a03b1e
-*.color11:      #a03b1e
+*.color3:       #c05b3e
+*.color11:      #c05b3e
 
 ! blue
-*.color4:       #484d79
-*.color12:      #484d79
+*.color4:       #686d99
+*.color12:      #686d99
 
 ! magenta
-*.color5:       #c59820
-*.color13:      #c59820
+*.color5:       #e5b840
+*.color13:      #e5b840
 
 ! cyan
-*.color6:       #b02f30
-*.color14:      #b02f30
+*.color6:       #d04f50
+*.color14:      #d04f50
 
 ! white
-*.color7:       #9ea7a6
+*.color7:       #bec7c6
 *.color15:      #b5d8f6
 
 
