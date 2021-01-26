@@ -9,9 +9,9 @@ URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 
-URxvt.transparent: true
-URxvt.shading:       20
-URxvt*.blurRadius: 40
+!URxvt.transparent: true
+!URxvt.shading:       20
+!URxvt*.blurRadius: 40
 
 Xft.dpi:       96
 Xft.antialias: true
@@ -21,43 +21,44 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
+!! Colorscheme
+
 ! special
 *.foreground:   #bec7c6
 *.background:   #12171a
 *.cursorColor:  #bec7c6
 
 ! black
-*.color0:       #12171a
-*.color8:       #5f6964
+*.color0: #263640
+*.color8: #4a697d
 
 ! red
-*.color1:       #4a74b1
-*.color9:       #4a74b1
+*.color1: #d12f2c
+*.color9: #fa3935
 
 ! green
-*.color2:       #4399a6
-*.color10:      #4399a6
+*.color2: #819400
+*.color10: #a4bd00
 
 ! yellow
-*.color3:       #c05b3e
-*.color11:      #c05b3e
+*.color3: #b08500
+*.color11: #d9a400
 
 ! blue
-*.color4:       #686d99
-*.color12:      #686d99
+*.color4: #2587cc
+*.color12: #2ca2f5
 
 ! magenta
-*.color5:       #e5b840
-*.color13:      #e5b840
+*.color5: #696ebf
+*.color13: #8086e8
 
 ! cyan
-*.color6:       #d04f50
-*.color14:      #d04f50
+*.color6: #289c93
+*.color14: #33c5ba
 
 ! white
-*.color7:       #bec7c6
-*.color15:      #b5d8f6
-
+*.color7: #bfbaac
+*.color15: #fdf6e3
 
 
 rofi.fullscreen: true
