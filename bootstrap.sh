@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./deploy.sh
+# Usage: ./bootstrap.sh
 # Author: Houssameddien YOUSFI
 
 # Requirements :
