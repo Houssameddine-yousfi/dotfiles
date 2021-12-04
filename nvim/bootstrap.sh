@@ -17,7 +17,7 @@ sudo apt install python3-pip -y
 python3 -m pip install --user --upgrade pynvim
 
 #make symbolic links for the config
-mkdir ~/.config/nvim
+mkdir -p ~/.config/nvim
 ln -s "$SCRIPT_DIR"/init.vim ~/.config/nvim/init.vim
 ln -s "$SCRIPT_DIR"/coc-settings.json ~/.config/nvim/coc-settings.json
 

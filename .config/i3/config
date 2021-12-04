@@ -38,8 +38,16 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 
-#start compton for transparancy 
+# start compton for transparancy 
 exec --no-startup-id compton
+# background image
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
+#touchpad config for my laptop
+exec --no-startup-id xinput set-prop "MSFT0001:00 04F3:31DD Touchpad" "libinput Tapping Enabled" 1
+#brightness key binding
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
