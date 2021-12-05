@@ -20,7 +20,7 @@ SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 # make symbolic links for the config
 ln -sf "$SCRIPT_DIR"/.zshrc ~/.zshrc
-ln -sf "$SCRIPT_DIR"/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+ln -sf "$SCRIPT_DIR"/zsh-autosuggestions/ ~/.zsh/zsh-autosuggestions/
 
 # make zsh default shell
 chsh -s $(which zsh)
