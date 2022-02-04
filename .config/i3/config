@@ -215,3 +215,11 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #ffffff
 
 exec_always --no-startup-id "killall polybar; polybar -r example"
+
+for_window [instance="dropdown"] floating enable
+for_window [instance="dropdown"] resize set 825 600
+for_window [instance="dropdown"] move scratchpad
+exec --no-startup-id urxvt -name dropdown
+
+bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
+
